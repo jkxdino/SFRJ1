@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    font-family: 'Konstruktor';
+}
+
+header {
+    background-color: #333;
+    padding-bottom: 3px;
+    
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button, .button2 {
+    background-color: darkred;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 25px 5px; /* Adjust margin as needed */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover, .button2:hover {
+    background-color: orange;
+}
+
+.button::before, .button2::before {
+    content: "\262D"; /* Unicode for hammer and sickle */
+    margin-right: 5px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: orange;
+    background-color: red;
+    
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.right-buttons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right-buttons li {
+    display: inline-block;
+}
+
+.right-buttons li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.right-buttons li a:hover {
+    background-color: #555;
+}
+
+.zvezda img {
+    width: 40px;
+    height: 40px;
+}
+
+.DRUGA img {
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+.BRT h1 {
+    font-family: 'Konstruktor';    text-align: center;
+    color: red;
+ }
+
+ .image-container {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    flex-wrap: wrap;
+    
+}
+
+.image {
+    flex: 0 0 15%; /* Each image takes up 30% of the container width */
+    margin: 5px;
+    text-align: center; /* Center the image within its container */
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-style: solid; /* Apply border style to the image only */
+    border-color: orange;
+}
+.image p {
+    color: red;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    height: 80px;
+    color: white;
+    text-align: center; /* Center-align the text */
+}
+
+
+
+.tfoot {
+    font-family: 'Konstruktor';
+    color: white;
+
+}
+
+.video-container {
+    text-align: center;
+}
